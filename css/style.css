@@ -24,12 +24,14 @@ body{
 }
 /* end general */
 /* Start Navbar */
+
 .navbar .logo{
     float: left;
 }
 .navbar .nav{
     float: right;
     position: relative;
+   
 }
 .navbar .nav .list-menu {
     display: none;
@@ -66,7 +68,7 @@ body{
 .nav ul  a.active,
 .nav ul li a:hover{
     border-top: 2px solid #8e7754;
-    color: #7e7575; 
+    color:rgb(181, 153, 98)
  }
  @media(max-width:853px){
     .navbar .nav ul{
