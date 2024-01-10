@@ -326,14 +326,14 @@ width: 85%;
 margin: auto;
 }
 
-.Baking-section .box h2{
+.Baking-section .box2 h2{
     font-weight: 400;
     margin-bottom: 5px;
     font-size: 22px;
     color: #303030;
     line-height: 50px;
 }
- .Baking-section .box p{
+ .Baking-section .box2 p{
         /* background-color: blue; */
         font-size: 17px;
         color: #686868;
