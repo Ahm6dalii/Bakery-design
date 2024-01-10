@@ -376,7 +376,7 @@ vertical-align: middle;
 }
 .contact-box .box1 iframe{
 width:90%;
-height: 80vh;
+height:450px;
 }
 
 .contact-box .box1 h2{
@@ -418,7 +418,12 @@ height: 80vh;
         width: 100%;
         margin-bottom: 10px;
     }
+    .contact-box .box1 iframe{
+        width:90%;
+        height:200px;
+        }
 }
+
 
 /* End Contact Section */
 
