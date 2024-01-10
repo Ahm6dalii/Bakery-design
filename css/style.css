@@ -31,7 +31,6 @@ body{
 .navbar .nav{
     float: right;
     position: relative;
-   
 }
 .navbar .nav .list-menu {
     display: none;
@@ -47,11 +46,11 @@ body{
 }
 .logo a {
     display: inline-block;
-    padding: 15px;
+    padding: 15px 0;
 }
 .logo a img{
     /* vertical-align: middle; */
-    width: 180px;
+    width: 150px;
 }
 .nav ul li{
     float: left;
@@ -133,6 +132,14 @@ body{
     cursor: pointer;
 }
 @media(max-width:870px){
+    .logo a {
+        display: inline-block;
+        padding: 20px 0;
+    }
+    .logo a img{
+        /* vertical-align: middle; */
+        width: 120px;
+    }
     .home-text{
         padding-top: 120px;
     }
