@@ -27,6 +27,12 @@ body{
 }
 /* end general */
 /* Start Navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 .navbar .container{
     border-bottom: 2px solid #969696;
 }
@@ -137,21 +143,23 @@ body{
 }
 .home-text{
     color: #ffffff;
+    background-color: rgba(0,0,0,.3);
     text-align: center;
     padding-top: 200px;
-    max-width: 53%;
-    margin: auto;
+    height: 100%;
 }
 .home-text .title{
     font-family:"Alegreya Sans";
     font-size: 22px;
 }
-.home-text h2{
+.home-text h1{
     font-weight: 400;
     font-size: 76px;
 }
 .home-text p{
     font-family:"Alegreya Sans";
+    width: 50%;
+    margin: auto;
     font-size: 24px;
     line-height: 44.64px;
 }
@@ -227,7 +235,7 @@ body{
 /* End Home */
 /* Start Who Are */
 .who_Are{
-    padding: 120px 70px 80px; 
+    padding: 120px 0 80px; 
 }
 .who_Are .Who_box{
     display: inline-block;
@@ -307,7 +315,7 @@ body{
 
 /* Start Location */
 .location{
-    padding: 80px 70px;
+    padding: 80px 0;
     background-color: #f8f8f8;
 }
 .loc_box{
@@ -355,7 +363,7 @@ body{
 } */
 .head{
     text-align: center;
-    padding: 10px;
+    padding-top: 60px;
     margin-bottom: 60px;
     line-height: 42px;
 }
@@ -370,18 +378,15 @@ body{
     color:#303030;
     font-size:30px;
 }
+.Baking-section{
+    padding-bottom: 60px;
+}
 
 .Baking-section .box2{
-display: inline-block; 
- width: calc(98%/3);
+    float: left; 
+ width: calc(100%/3);
    text-align: center;
-   padding: 0 10px;
-   margin-bottom: 10px;
-   padding: 10px;
-}
-.box-container{
-width: 85%;
-margin: auto;
+   padding: 0 15px;
 }
 
 .Baking-section .box2 h2{
@@ -399,7 +404,7 @@ margin: auto;
         line-height: 42px;
 }
 .box2 img{
-    width: 90%;
+    width: 100%;
 }
  @media(max-width:767px){
     .head{
@@ -425,7 +430,7 @@ margin: auto;
 /* Start Contact Section */
 .contact-box{
      background-color: #f8f8f8;
-     padding: 80px 70px;
+     padding: 80px 0;
 }
 .contact-box .box1{
 float: left;
